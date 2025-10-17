@@ -1,0 +1,142 @@
+.about-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 2rem;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #edf6f9;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .hero-content h1 {
+    color: #2d6a4f;
+    font-size: 2.5rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .hero-image {
+    border-radius: 10px;
+    width: 40%;
+    object-fit: cover;
+  }
+  
+  /* Story Section */
+  .about-story {
+    margin-top: 3rem;
+  }
+  
+  .story-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .story-image {
+    width: 40%;
+    border-radius: 10px;
+  }
+  
+  /* Mission Section */
+  .about-mission {
+    text-align: center;
+    background-color: #d8f3dc;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+  }
+  
+  /* Values Section */
+  .about-values {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .value-card {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Gallery Section */
+  .about-gallery {
+    margin-top: 3rem;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Founder Section */
+  .about-founder {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .founder-image {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .founder-text h2 {
+    color: #2d6a4f;
+  }
+  
+  /* Promise Section */
+  .about-promise {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #f1faee;
+    border-radius: 10px;
+  }
+  
+  /* Explore Links */
+  .about-links {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .about-links .btn {
+    display: inline-block;
+    background-color: #2d6a4f;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    margin: 0.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .about-links .btn:hover {
+    background-color: #1b4332;
+  }
+  

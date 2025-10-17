@@ -1,0 +1,37 @@
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* center logo horizontally */
+  padding: 2rem 2rem; /* increased padding to fit the logo */
+  background-color: #2d6a4f;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.logo {
+  height: 60px;
+  object-fit: contain;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 0;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  margin-left: auto;
+  padding: 0;
+  z-index: 1;
+
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
